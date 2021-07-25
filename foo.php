@@ -1,0 +1,10 @@
+Nama Lengkap : <?php $namalengkap= $_POST["fname"]; echo $namalengkap; ?><br>
+Jenis Kelamin : <?php $jeniskelamin= $_POST['gender']; echo $jeniskelamin; ?><br>
+Tempat Lahir : <?php $tempatlahir= $_POST["birthplace"]; echo $tempatlahir; ?><br>
+Tanggal Lahir : <?php $tanggallahir= $_POST["birth"]; echo $tanggallahir; ?><br>
+Agama : <?php $agama= $_POST["religion"]; echo $agama; ?><br>
+Daerah : <?php $daerah= $_POST["area"]; echo $daerah; ?><br>
+Alamat : <?php $alamat= $_POST["address"]; echo $alamat; ?><br>
+No. Telpon : <?php $telpon= $_POST["phone"]; echo $telpon; ?><br>
+Email : <?php $email= $_POST["email"]; echo $email; ?><br>
+Bahasa : <?php $language= $_POST["bahasa"]; echo $language; ?><br>
