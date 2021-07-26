@@ -1,0 +1,97 @@
+/* Navbar */
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+.navbar .navbar-nav .navbar-item .active {
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar .navbar-nav .navbar-item a {
+  color: white;
+}
+.navbar .navbar-nav .navbar-item a:hover {
+  color: rgb(214, 214, 214);
+}
+.navbar .navbar-nav .nav-btn {
+  display: inline-block;
+  background: #fff;
+  color: #419ee0;
+  margin-left: 10px;
+  padding: 4px 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 2px solid #419ee0;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.navbar .navbar-nav .nav-btn:hover {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+}
+
+/* Button */
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+/* Jumbotron */
+.content {
+  max-width: 1300px;
+  padding: 80px;
+  margin: auto;
+}
+.jumbotron {
+  display: flex;
+  background: url("img/img1.jpg");
+  height: 100vh;
+  color: white;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+}
+.jumbotron .content {
+  width: 100%;
+  display: flex;
+}
+.jumbotron .content .row {
+  margin-right: 0;
+}
+.jumbotron .home-main .text-1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: -3px;
+  color: #419ee0;
+}
+.jumbotron .home-main .text-2 {
+  font-size: 21px;
+  color: #787878;
+  max-width: 600px;
+}
+.jumbotron .home-main .text-3 {
+  font-size: 40px;
+}
+.jumbotron .home-main a {
+  display: inline-block;
+  background: #419ee0;
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid #419ee0;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.jumbotron .home-main a:hover {
+  color: #0872bd;
+  background: none;
+}
