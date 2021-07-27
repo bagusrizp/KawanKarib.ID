@@ -20,9 +20,6 @@
   <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #419EE0;">
     <div class="container">
       <a class="navbar-brand" href="#">KawanKarib.ID</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="navbar-item">
@@ -31,22 +28,25 @@
           <li class="navbar-item dropdown">
             <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Webinar</a></li>
-              <li><a class="dropdown-item" href="#">Konseling</a></li>
-              <li><a class="dropdown-item" href="#">Mentorship</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Webinar</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Konseling</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Mentorship</a></li>
             </ul>
           </li>
           <li class="navbar-item">
             <a class="nav-link" href="#">Tentang Kami</a>
           </li>
-          <a class="nav-btn" href="">Login</a>
         </ul>
+        <a class="nav-btn" href="">Masuk</a>
       </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
   </nav>
   <!-- End Navbar -->
 
-  <!-- Jumbotron -->
+  <!-- Site top -->
   <section class="jumbotron">
     <div class="content">
       <div class="row">
@@ -59,7 +59,96 @@
       </div>
     </div>
   </section>
-  <!-- End Jumbotron -->
+  <!-- End Site Top -->
+
+  <!-- Site Mid -->
+  <section class="site">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 mt-5 mb-3 text-center">
+          <img src="img/img2.svg" alt="">
+          <div class="point fs-1">100+</div>
+          <p>Terdapat 100 lebih <br> Konsultan yang sudah bergabung</p>
+        </div>
+        <div class="col-sm-4 mt-5 mb-3 text-center">
+          <img src="img/img3.svg" alt="">
+          <div class="point fs-1">100+</div>
+          <p>Terdapat 100 lebih <br> Pasien yang sudah bergabung</p>
+        </div>
+        <div class="col-sm-4 mt-5 mb-3 text-center">
+          <img src="img/img4.svg" alt="">
+          <div class="point fs-1">100+</div>
+          <p>Terdapat 100 lebih <br> Komunitas yang sudah bergabung</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Site Mid -->
+
+  <!-- Kata Mereka -->
+  <section class="km">
+    <div class="container">
+      <div class="row text-center mt-5 mb-4">
+        <div class="col">
+          <h2>Kata Mereka</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/Person/2.jpg" alt="Orang 1">
+              <h5 class="card-title mt-2">Albert Wicaksono</h5>
+              <h6 class="card-subtitle mb-2">Pengusaha</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur, alias assumenda rerum fugiat distinctio explicabo aliquid culpa repellendus iusto!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/Person/1.jpg" alt="Orang 2">
+              <h5 class="card-title mt-2">Maria Delove</h5>
+              <h6 class="card-subtitle mb-2">Mahasiswi</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur, alias assumenda rerum fugiat distinctio explicabo aliquid culpa repellendus iusto!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/Person/3.jpg" alt="Orang 3">
+              <h5 class="card-title mt-2">Joko Mashuri</h5>
+              <h6 class="card-subtitle mb-2">Karyawan</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur, alias assumenda rerum fugiat distinctio explicabo aliquid culpa repellendus iusto!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col-ms-3">
+          <a class="btn-km" href="">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Kata Mereka -->
+
+  <!-- Footer -->
+  <footer class="footer mt-5 py-3">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-sm-3">
+          <span>&copy; <?= DATE('Y'); ?> All rights reserved</span>
+        </div>
+        <div class="col-sm-2">
+          By <a class="link" href="">KawanKarib.ID</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
 
   <!-- Optional JavaScript; choose one of the two! -->
 
