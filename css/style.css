@@ -95,6 +95,55 @@
   background: none;
 }
 
+/* Jumbotron About */
+.about {
+  display: flex;
+  background: url("../img/img5.jpg");
+  height: 100vh;
+  color: white;
+  min-height: 500px;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.about .content {
+  width: 100%;
+  display: flex;
+}
+.about .content .row {
+  margin-right: 0;
+}
+.about .home-main .text-1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: -3px;
+  color: #419ee0;
+}
+.about .home-main .text-2 {
+  font-size: 21px;
+  color: #787878;
+  max-width: 600px;
+}
+.about .home-main .text-3 {
+  font-size: 40px;
+}
+.about .home-main a {
+  display: inline-block;
+  background: #419ee0;
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid #419ee0;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.about .home-main a:hover {
+  color: #0872bd;
+  background: none;
+}
+
 /* Site */
 .site {
   background-color: rgba(170, 170, 170, 0.5);
@@ -104,6 +153,38 @@
 }
 .site .container .row img {
   height: 160px;
+}
+
+/* Site Bottom */
+.sitebottom .container .row .point {
+  font-weight: bold;
+}
+.sitebottom .container .row img {
+  height: 160px;
+}
+.sitebottom .container span {
+  font-weight: bold;
+}
+
+/* Site About */
+.siteabout {
+  background-color: #419ee0;
+}
+.siteabout .container .row .point {
+  font-weight: bold;
+  color: white;
+}
+.siteabout .container .row p {
+  font-weight:300 ;
+  color: white;
+}
+.siteabout .container .row img {
+  height: 400px;
+  width: 800px;
+}
+.siteabout .container span {
+  font-weight: bold;
+  color: white;
 }
 
 /* Kata Mereka */
@@ -148,6 +229,7 @@
 .km .card:hover .card-body {
   transform: scale(1.05);
 }
+
 
 /* Footer */
 footer {
