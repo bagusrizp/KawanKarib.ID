@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="navbar-item">
-            <a class="nav-link active" href="#">Beranda</a>
+            <a class="nav-link active" href="/KawanKarib.ID">Beranda</a>
           </li>
           <li class="navbar-item dropdown">
             <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
@@ -41,7 +41,7 @@
             <a class="nav-link" href="#">Tentang Kami</a>
           </li>
         </ul>
-        <a class="nav-btn" href="">Masuk</a>
+        <a class="nav-btn" href="auth/">Masuk</a>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars" style="color: white;"></i>
@@ -58,7 +58,7 @@
           <div class="text-1">Ayo,</div>
           <div class="text-1">Daftarkan Sekarang</div>
           <div class="text-2">Tanpa disadari, sebenarnya kesehatan mental juga harus diperhatikan loh yuk, daftarkan sekarang</div>
-          <a href="">Daftar Sekarang</a>
+          <a class="shadow" href="auth/register.php">Daftar Sekarang</a>
         </aside>
       </div>
     </div>
@@ -99,7 +99,7 @@
       </div>
       <div class="row text-center">
         <div class="col-sm-4">
-          <div class="card">
+          <div class="card shadow">
             <div class="card-body">
               <img src="img/Person/2.jpg" alt="Orang 1">
               <h5 class="card-title mt-2">Albert Wicaksono</h5>
@@ -109,7 +109,7 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="card">
+          <div class="card shadow">
             <div class="card-body">
               <img src="img/Person/1.jpg" alt="Orang 2">
               <h5 class="card-title mt-2">Maria Delove</h5>
@@ -119,7 +119,7 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="card">
+          <div class="card shadow">
             <div class="card-body">
               <img src="img/Person/3.jpg" alt="Orang 3">
               <h5 class="card-title mt-2">Joko Mashuri</h5>
@@ -131,7 +131,7 @@
       </div>
       <div class="row text-center mt-4">
         <div class="col-ms-3">
-          <a class="btn-km" href="">Lebih Lanjut</a>
+          <a class="btn-km shadow" href="">Lebih Lanjut</a>
         </div>
       </div>
     </div>
@@ -142,10 +142,10 @@
   <footer class="footer mt-5 py-3">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-sm-3">
+        <div class="col-sm-6">
           <span>&copy; <?= DATE('Y'); ?> All rights reserved</span>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-6 text-end">
           By <a class="link" href="">KawanKarib.ID</a>
         </div>
       </div>

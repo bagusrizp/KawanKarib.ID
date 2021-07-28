@@ -1,11 +1,17 @@
+/* All */
+* {
+  font-family: "Poppins", sans-serif;
+}
+.background {
+  background: #419ee0;
+}
+
 /* Navbar */
 .navbar-brand {
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 26px;
 }
 .nav-link {
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
 }
 .navbar .navbar-nav .navbar-item .active {
@@ -49,7 +55,6 @@
   min-height: 500px;
   background-size: cover;
   /* background-attachment: fixed; */
-  font-family: "Poppins", sans-serif;
 }
 .jumbotron .content {
   width: 100%;
@@ -93,7 +98,6 @@
 /* Site */
 .site {
   background-color: rgba(170, 170, 170, 0.5);
-  font-family: "Poppins", sans-serif;
 }
 .site .container .row .point {
   font-weight: bold;
@@ -103,9 +107,6 @@
 }
 
 /* Kata Mereka */
-.km {
-  font-family: "Poppins", sans-serif;
-}
 .km .container .row h2 {
   font-weight: 600;
 }
@@ -138,9 +139,7 @@
   transition: all 0.3s ease;
 }
 .km .card {
-  border-radius: 6px;
-  padding: 25px 35px;
-  overflow: hidden;
+  border-radius: 20px;
   transition: all 0.3s ease;
 }
 .km .card:hover {
@@ -152,7 +151,6 @@
 
 /* Footer */
 footer {
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   background-color: #419ee0;
@@ -166,13 +164,8 @@ footer {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* Login Top */
-.top {
-  display: flex;
-  background: #419ee0;
-}
+/* Top */
 .top .btn-ku {
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
   text-decoration: none;
   color: #fff;
@@ -182,12 +175,6 @@ footer {
 }
 
 /* Login */
-.login {
-  display: flex;
-  background: #419ee0;
-  font-family: "Poppins", sans-serif;
-  height: 100vh;
-}
 .login .card {
   border-radius: 15px;
 }
@@ -229,6 +216,56 @@ footer {
   color: #fff;
 }
 .login span a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+/* Register */
+.register .card {
+  border-radius: 15px;
+}
+.register form {
+  font-weight: 500;
+  font-size: medium;
+}
+.register form input {
+  border-radius: 10px;
+  border-color: #419ee0;
+}
+.register form select {
+  border-radius: 10px;
+  border-color: #419ee0;
+}
+.register form button {
+  display: inline-block;
+  background: #419ee0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 6px 35px;
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 6px;
+  border: 2px solid #419ee0;
+  transition: all 0.3s ease;
+}
+.register form button:hover {
+  background: none;
+  color: #419ee0;
+}
+.register .card a {
+  color: #419ee0;
+  font-weight: 600;
+  font-size: 14px;
+}
+.register .card a:hover {
+  color: #419ee070;
+  text-decoration: none;
+}
+.register span a {
+  font-weight: normal;
+  color: #fff;
+}
+.register span a:hover {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }

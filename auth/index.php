@@ -20,12 +20,12 @@
 
 </head>
 
-<body>
+<body class="background">
   <!-- Top -->
   <section class="top">
     <div class="container">
       <div class="row-3 text-end mt-5 mb-4">
-        <a class="btn-ku" href="">
+        <a class="btn-ku" href="/KawanKarib.ID">
           <i class="fas fa-angle-left"></i> Beranda
         </a>
       </div>
@@ -46,11 +46,11 @@
               <form class="ms-4 me-4 mt-2 mb-4" action="" method="POST">
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" name="email">
+                  <input type="email" class="form-control" name="email" placeholder="Masukkan Email">
                 </div>
                 <div class="mb-3">
                   <label for="password" class="form-label">Password</label>
-                  <input type="password" class="form-control" name="password">
+                  <input type="password" class="form-control" name="password" placeholder="Masukkan Password">
                 </div>
                 <div class="text-center">
                   <button class="" type="submit">Masuk</button>
@@ -65,7 +65,7 @@
       </div>
       <div class="row text-center mb-5">
         <span class="text-white">Belum punya akun?
-          <a href=""> Daftar disini!</a>
+          <a href="register.php"> Daftar disini!</a>
         </span>
       </div>
     </div>
