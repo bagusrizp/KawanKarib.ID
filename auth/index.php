@@ -41,7 +41,7 @@
       </div>
       <div class="row justify-content-center mb-4">
         <div class="col-sm-5">
-          <div class="card">
+          <div class="card shadow">
             <div class="card-body">
               <form class="ms-4 me-4 mt-2 mb-4" action="" method="POST">
                 <div class="mb-3">
@@ -53,7 +53,7 @@
                   <input type="password" class="form-control" name="password" placeholder="Masukkan Password">
                 </div>
                 <div class="text-center">
-                  <button class="" type="submit">Masuk</button>
+                  <button class="shadow" type="submit">Masuk</button>
                 </div>
               </form>
               <div class="text-center">
