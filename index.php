@@ -9,10 +9,14 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+  <script src="assets/fontawesome/js/all.js"></script>
+
   <title>KawanKarib.ID</title>
 
   <!-- My CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -40,7 +44,7 @@
         <a class="nav-btn" href="">Masuk</a>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars" style="color: white;"></i>
       </button>
     </div>
   </nav>

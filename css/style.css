@@ -35,12 +35,6 @@
   border: 2px solid #fff;
 }
 
-/* Button */
-.btn {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
-}
-
 /* Jumbotron */
 .content {
   max-width: 1300px;
@@ -49,7 +43,7 @@
 }
 .jumbotron {
   display: flex;
-  background: url("img/img1.jpg");
+  background: url("../img/img1.jpg");
   height: 100vh;
   color: white;
   min-height: 500px;
@@ -170,4 +164,71 @@ footer {
 }
 .footer .container .row .link:hover {
   color: rgba(255, 255, 255, 0.5);
+}
+
+/* Login Top */
+.top {
+  display: flex;
+  background: #419ee0;
+}
+.top .btn-ku {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+}
+.top .btn-ku:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Login */
+.login {
+  display: flex;
+  background: #419ee0;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+.login .card {
+  border-radius: 15px;
+}
+.login form {
+  font-weight: 500;
+  font-size: medium;
+}
+.login form input {
+  border-radius: 10px;
+  border-color: #419ee0;
+}
+.login form button {
+  display: inline-block;
+  background: #419ee0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 6px 35px;
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 6px;
+  border: 2px solid #419ee0;
+  transition: all 0.3s ease;
+}
+.login form button:hover {
+  background: none;
+  color: #419ee0;
+}
+.login .card a {
+  color: #419ee0;
+  font-weight: 600;
+  font-size: 14px;
+}
+.login .card a:hover {
+  color: #419ee070;
+  text-decoration: none;
+}
+.login span a {
+  font-weight: normal;
+  color: #fff;
+}
+.login span a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
 }
