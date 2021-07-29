@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="navbar-item">
-            <a class="nav-link active" href="/KawanKarib.ID">Beranda</a>
+            <a class="nav-link" href="/KawanKarib.ID">Beranda</a>
           </li>
           <li class="navbar-item dropdown">
             <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
@@ -38,7 +38,7 @@
             </ul>
           </li>
           <li class="navbar-item">
-            <a class="nav-link" href="about.php">Tentang Kami</a>
+            <a class="nav-link active" href="#">Tentang Kami</a>
           </li>
         </ul>
         <a class="nav-btn" href="auth/">Masuk</a>
@@ -51,14 +51,12 @@
   <!-- End Navbar -->
 
   <!-- Site top -->
-  <section class="jumbotron">
+  <section class="about">
     <div class="content">
       <div class="row">
         <aside class="home-main">
-          <div class="text-1">Ayo,</div>
-          <div class="text-1">Daftarkan Sekarang</div>
-          <div class="text-2">Tanpa disadari, sebenarnya kesehatan mental juga harus diperhatikan loh yuk, daftarkan sekarang</div>
-          <a class="shadow" href="auth/register.php">Daftar Sekarang</a>
+          <div class="text-1">Yuk, Kenalan dengan <br>kami!</div>
+          <div class="text-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
         </aside>
       </div>
     </div>
@@ -66,77 +64,60 @@
   <!-- End Site Top -->
 
   <!-- Site Mid -->
-  <section class="site">
+  <section class="siteabout">
     <div class="container">
+        <div class="row text-center">
+            <span class="mt-3 fs-1">Berawal dari kami</span>
+        </div>
       <div class="row">
-        <div class="col-sm-4 mt-5 mb-3 text-center">
-          <img src="img/img2.svg" alt="">
-          <div class="point fs-1">100+</div>
-          <p>Terdapat 100 lebih <br> Konsultan yang sudah bergabung</p>
+        <div class="col-sm-4 mt-5 text-center">
+          <div class="point fs-4">Pratama Puji Ariyanto</div>
+          <p>Mahasiswa UPNVJATIM</p>
         </div>
-        <div class="col-sm-4 mt-5 mb-3 text-center">
-          <img src="img/img3.svg" alt="">
-          <div class="point fs-1">100+</div>
-          <p>Terdapat 100 lebih <br> Pasien yang sudah bergabung</p>
+        <div class="col-sm-4 mt-5 text-center">
+          <div class="point fs-4">Bagus Rizky Prasetyo</div>
+          <p>Mahasiswa UPNVJATIM</p>
         </div>
-        <div class="col-sm-4 mt-5 mb-3 text-center">
-          <img src="img/img4.svg" alt="">
-          <div class="point fs-1">100+</div>
-          <p>Terdapat 100 lebih <br> Komunitas yang sudah bergabung</p>
+        <div class="col-sm-4 mt-5 text-center">
+          <div class="point fs-4">Ruben Coda S.I</div>
+          <p>Mahasiswa UPNVJATIM</p>
         </div>
+      </div>
+      <div class="row text-center">
+          <div class="mb-3">
+             <img src="img/img6.png" alt="">
+          </div>
       </div>
     </div>
   </section>
   <!-- End Site Mid -->
 
-  <!-- Kata Mereka -->
-  <section class="km">
+  <!-- Start site bottom -->
+  <section class="sitebottom">
     <div class="container">
-      <div class="row text-center mt-5 mb-4">
-        <div class="col">
-          <h2>Kata Mereka</h2>
+    <div class="row text-center">
+            <span class="mt-3 fs-1">Layanan Kami</span>
         </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-sm-4">
-          <div class="card shadow">
-            <div class="card-body">
-              <img src="img/Person/2.jpg" alt="Orang 1">
-              <h5 class="card-title mt-2">Albert Wicaksono</h5>
-              <h6 class="card-subtitle mb-2">Pengusaha</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur, alias assumenda rerum fugiat distinctio explicabo aliquid culpa repellendus iusto!</p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-sm-4 mt-5 mb-3 text-center">
+          <img src="img/img7.svg" alt="">
+          <div class="point fs-3">Mentorship</div>
+          <p>Lorem Ipsum is simply dummy <br> text of the printing and </br> typesetting industry.</p>
         </div>
-        <div class="col-sm-4">
-          <div class="card shadow">
-            <div class="card-body">
-              <img src="img/Person/1.jpg" alt="Orang 2">
-              <h5 class="card-title mt-2">Maria Delove</h5>
-              <h6 class="card-subtitle mb-2">Mahasiswi</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur, alias assumenda rerum fugiat distinctio explicabo aliquid culpa repellendus iusto!</p>
-            </div>
-          </div>
+        <div class="col-sm-4 mt-5 mb-3 text-center">
+          <img src="img/img8.svg" alt="">
+          <div class="point fs-3">Webinar</div>
+          <p>Lorem Ipsum is simply dummy <br> text of the printing and </br> typesetting industry.</p>
         </div>
-        <div class="col-sm-4">
-          <div class="card shadow">
-            <div class="card-body">
-              <img src="img/Person/3.jpg" alt="Orang 3">
-              <h5 class="card-title mt-2">Joko Mashuri</h5>
-              <h6 class="card-subtitle mb-2">Karyawan</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur, alias assumenda rerum fugiat distinctio explicabo aliquid culpa repellendus iusto!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row text-center mt-4">
-        <div class="col-ms-3">
-          <a class="btn-km shadow" href="">Lebih Lanjut</a>
+        <div class="col-sm-4 mt-5 mb-3 text-center">
+          <img src="img/img9.svg" alt="">
+          <div class="point fs-3">Konseling</div>
+          <p>Lorem Ipsum is simply dummy <br> text of the printing and </br> typesetting industry.</p>
         </div>
       </div>
     </div>
   </section>
-  <!-- End Kata Mereka -->
+  <!-- End site bottom -->
 
   <!-- Footer -->
   <footer class="footer mt-5 py-3">
