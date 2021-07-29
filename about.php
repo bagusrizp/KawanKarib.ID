@@ -20,6 +20,12 @@
 </head>
 
 <body>
+  <?php
+  session_start();
+  if ($_SESSION['status'] != "login") {
+    header("location: auth/index.php?pesan=belum_login");
+  }
+  ?>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #419EE0;">
     <div class="container">
@@ -41,7 +47,7 @@
             <a class="nav-link active" href="#">Tentang Kami</a>
           </li>
         </ul>
-        <a class="nav-btn" href="auth/">Masuk</a>
+        <a class="nav-btn" href="home/logout.php">Logout</a>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars" style="color: white;"></i>
@@ -66,9 +72,9 @@
   <!-- Site Mid -->
   <section class="siteabout">
     <div class="container">
-        <div class="row text-center">
-            <span class="mt-3 fs-1">Berawal dari kami</span>
-        </div>
+      <div class="row text-center">
+        <span class="mt-3 fs-1">Berawal dari kami</span>
+      </div>
       <div class="row">
         <div class="col-sm-4 mt-5 text-center">
           <div class="point fs-4">Pratama Puji Ariyanto</div>
@@ -84,9 +90,9 @@
         </div>
       </div>
       <div class="row text-center">
-          <div class="mb-3">
-             <img src="img/img6.png" alt="">
-          </div>
+        <div class="mb-3">
+          <img src="img/img6.png" alt="">
+        </div>
       </div>
     </div>
   </section>
@@ -95,9 +101,9 @@
   <!-- Start site bottom -->
   <section class="sitebottom">
     <div class="container">
-    <div class="row text-center">
-            <span class="mt-3 fs-1">Layanan Kami</span>
-        </div>
+      <div class="row text-center">
+        <span class="mt-3 fs-1">Layanan Kami</span>
+      </div>
       <div class="row">
         <div class="col-sm-4 mt-5 mb-3 text-center">
           <img src="img/img7.svg" alt="">

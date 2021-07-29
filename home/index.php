@@ -45,7 +45,7 @@
             </ul>
           </li>
           <li class="navbar-item">
-            <a class="nav-link" href="#">Tentang Kami</a>
+            <a class="nav-link" href="../about.php">Tentang Kami</a>
           </li>
         </ul>
         <a class="nav-btn" href="logout.php">Logout</a>
