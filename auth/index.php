@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="../assets/fontawesome/css/all.css">
   <script src="../assets/fontawesome/js/all.js"></script>
 
+  <!-- Sweet Alert -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   <title>Login</title>
 
   <!-- My CSS -->
@@ -21,6 +24,40 @@
 </head>
 
 <body class="background">
+  <?php
+  if (isset($_GET['pesan'])) {
+    if ($_GET['pesan'] == "gagal") {
+      echo "<script>
+      Swal.fire({
+        icon: 'error',
+        title: 'Login Gagal',
+        text: 'Email atau Password salah!',
+        showConfirmButton: false,
+        timer: 1500,
+        timerProgressBar: true
+      });
+      </script>";
+    } else if ($_GET['pesan'] == "logout") {
+      echo "<script>
+      Swal.fire({
+        icon: 'success',
+        title: 'Logout Berhasil',
+        showConfirmButton: false,
+        timer: 1500,
+        timerProgressBar: true
+      });
+      </script>";
+    } else if ($_GET['pesan'] == "belum_login") {
+      echo "<script>
+      Swal.fire({
+        icon: 'warning',
+        title: 'Anda belum login',
+        text: 'Silahkan login untuk mengakses halaman'
+      });
+      </script>";
+    }
+  }
+  ?>
   <!-- Top -->
   <section class="top">
     <div class="container">
@@ -43,7 +80,7 @@
         <div class="col-sm-5">
           <div class="card shadow">
             <div class="card-body">
-              <form class="ms-4 me-4 mt-2 mb-4" action="" method="POST">
+              <form class="ms-4 me-4 mt-2 mb-4" action="cek_login.php" method="POST">
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
                   <input type="email" class="form-control" name="email" placeholder="Masukkan Email">
