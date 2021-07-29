@@ -13,7 +13,7 @@ $cek = mysqli_fetch_row($login);
 if ($cek > 0) {
   $_SESSION['email'] = $email;
   $_SESSION['status'] = "login";
-  header("location:../home/");
+  header("location:../home/index.php");
 } else {
   header("location:index.php?pesan=gagal");
 }

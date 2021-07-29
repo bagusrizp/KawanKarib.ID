@@ -107,7 +107,7 @@ require 'koneksi.php';
   <section class="top">
     <div class="container">
       <div class="row-3 text-end mt-5 mb-4">
-        <a class="btn-ku" href="/KawanKarib.ID">
+        <a class="btn-ku" href="../index.php">
           <i class="fas fa-angle-left"></i> Beranda
         </a>
       </div>

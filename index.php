@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="navbar-item">
-            <a class="nav-link active" href="/KawanKarib.ID">Beranda</a>
+            <a class="nav-link active" href="index.php">Beranda</a>
           </li>
           <li class="navbar-item dropdown">
             <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
@@ -41,7 +41,7 @@
             <a class="nav-link" href="about.php">Tentang Kami</a>
           </li>
         </ul>
-        <a class="nav-btn" href="auth/">Masuk</a>
+        <a class="nav-btn" href="auth/index.php">Masuk</a>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars" style="color: white;"></i>

@@ -34,7 +34,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="navbar-item">
-            <a class="nav-link active" href="/KawanKarib.ID">Beranda</a>
+            <a class="nav-link active" href="../index.php">Beranda</a>
           </li>
           <li class="navbar-item dropdown">
             <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
