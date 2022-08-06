@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="assets/fontawesome/css/all.css">
   <script src="assets/fontawesome/js/all.js"></script>
 
-  <title>KawanKarib.ID</title>
+  <title>KawanKarib</title>
 
   <!-- My CSS -->
   <link rel="stylesheet" href="css/style.css">
